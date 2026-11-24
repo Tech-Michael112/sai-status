@@ -1,6 +1,3 @@
-cat <<'EOF' > cp.py
-"""One-shot iCloud sign-in automation using a persistent CDP Chrome."""
-
 import argparse
 import json
 import os
@@ -289,4 +286,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     sys.exit(main())
-EOF
